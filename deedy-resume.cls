@@ -43,7 +43,7 @@
 \setlength{\TPHorizModule}{0.01\paperwidth} % Sets the units for the horizontal position used in the \begin{textblock} argument
 \setlength{\TPVertModule}{0.01\paperwidth} % Sets the units for the vertical position used in the \begin{textblock} argument
 \newcommand{\lastupdated}{ % Create a new command for printing the Last Updated text
-\begin{textblock}{25}(75,2) % The position of the Last Updated text on the page (75% of the page across, 2% down)
+\begin{textblock}{25}(73,2) % The position of the Last Updated text on the page (75% of the page across, 2% down)
 \color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
 Last Updated on \today % Last Updated text
 \end{textblock}}
@@ -73,7 +73,7 @@ Last Updated on \today % Last Updated text
 
 \titlespacing{\section}{0pt}{0pt}{0pt} % Removes the spacing around the main section titles
 \titlespacing{\subsection}{0pt}{0pt}{0pt} % Removes the spacing around the subsections
-\newcommand{\sectionspace}{\vspace{8pt}} % Defines a command to add a set amount of space after sections and subsections
+\newcommand{\sectionspace}{\vspace{5pt}} % Defines a command to add a set amount of space after sections and subsections
 
 \titleformat{\section}{ % Customize the large section titles
 \color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
